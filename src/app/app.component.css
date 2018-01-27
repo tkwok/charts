@@ -1,0 +1,11 @@
+/* for app component only */
+
+.main-container {
+    background-color: #eee;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.chart-container {
+    min-height: 500px;
+}

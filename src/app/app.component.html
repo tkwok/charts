@@ -1,0 +1,54 @@
+<div class="main-container">
+<div>
+  <label for="county-select">Select County</label>
+  <select id="county-select"
+    [compareWith]="compareFunction"
+    [(ngModel)]="selectedValue"
+    (ngModelChange)="onCountyChange($event)">
+
+    <option *ngFor="let item of topSchools.counties"
+      [ngValue]="item">{{ item.label }}
+    </option>
+  </select>
+</div>
+
+<div *ngIf="selectedCounty"> 
+  <label for="district-select">Select District</label>
+  <select id="district-select"
+    [compareWith]="compareDistrictFunction"
+    [(ngModel)]="selectedDistrict"
+    (ngModelChange)="onDistrictChange($event)">
+    <option *ngFor="let district of selectedCounty"
+     [ngValue]="district">{{ district.label }}</option>
+  </select>
+</div>
+
+<div *ngIf="selectedSchools && selectedCounty"> 
+  <label for="school-select">Select School</label>
+  <select id="school-select"
+    [compareWith]="compareSchoolFunction"
+    [(ngModel)]="selectedSchool"
+    (ngModelChange)="onSchoolChange($event)">
+    <option *ngFor="let school of selectedSchools">{{ school.label }}</option>
+  </select>
+</div>
+
+<div class="chart-container"
+  *ngIf="showChart">
+  <ngx-charts-bar-vertical
+    *ngIf="loaded"
+    [results]="dataSelected"
+    [scheme]="barChartOptions.colorScheme"    
+    [gradient]="barChartOptions.gradient"
+    [xAxis]="barChartOptions.showXAxis"
+    [yAxis]="barChartOptions.showYAxis"
+    [legend]="barChartOptions.showLegend"
+    [showXAxisLabel]="barChartOptions.showXAxisLabel"
+    [showYAxisLabel]="barChartOptions.showYAxisLabel"
+    [xAxisLabel]="barChartOptions.xAxisLabel"
+    [yAxisLabel]="barChartOptions.yAxisLabel"
+    [tooltipDisabled]="true"
+    [showGridLines]="false">
+  </ngx-charts-bar-vertical>
+</div>
+</div>

@@ -1,0 +1,515 @@
+{ 
+  "counties": [
+    {
+      "id": "alameda",
+      "label": "Alameda",
+      "districts": [
+        {
+        "id": "fremont-unified",
+        "label": "Fremont Unified",
+        "schools": [
+            {
+              "id": "american-high",
+              "label": "American High",
+              "cdsCode": "01611760130062",
+              "lat": "37.5637",
+              "long": "-122.0182",
+              "bayArea": 1,
+              "traditionalSchool": 1,
+              "type": "H",
+              "grades": "9-12",
+              "status": "A",
+              "city": "Fremont",
+              "zip": "94536",
+              "charterFunding": null,
+              "charter": "N",
+              "topSchool14": 0,
+              "topSchool15": 0,
+              "elaData": {
+                "numEnrolled": 12,
+                "perEnrolled": 2,
+                "numTestedMet": 6,
+                "perTestedMet": 50,
+                "numEnrolledAfrican": 21,
+                "numTestedAfrican": 20,
+                "numTestedMetAfrican": 11,
+                "perTestedMetAftican": 55
+              },
+              "color": null,
+              "statusLevel": "M"
+            },
+            {
+              "id": "john-f-kennedy-high",
+              "label": "John F. Kennedy High",
+              "cdsCode": "01611760134452",
+              "lat": "37.529111",
+              "long": "-121.986468",
+              "bayArea": 1,
+              "traditionalSchool": 1,
+              "type": "H",
+              "grades": "9-12",
+              "status": "A",
+              "city": "Fremont",
+              "zip": "94538",
+              "charterFunding": null,
+              "charter": "N",
+              "topSchool14": 0,
+              "topSchool15": 0,
+              "elaData": {
+                "numEnrolled": 0,
+                "perEnrolled": 0,
+                "numTestedMet": 0,
+                "perTestedMet": 0,
+                "numEnrolledAfrican": 15,
+                "numTestedAfrican": 15,
+                "numTestedMetAfrican": 9,
+                "perTestedMetAftican": 6
+              },
+              "color": "NC",
+              "statusLevel": "M"
+            }
+        ]
+      }, {
+        "id": "hayward-unified",
+        "label": "Hayward Unified",
+        "schools": [
+          {
+              "id": "impact-academy-of-arts-&-technology",
+              "label": "Impact Academy of Arts & Technology",
+              "cdsCode": "01611920113902",
+              "lat": "37.63127",
+              "long": "-122.102441",
+              "bayArea": 1,
+              "traditionalSchool": 1,
+              "type": "H",
+              "grades": "7-12",
+              "status": "A",
+              "city": "Hayward",
+              "zip": "94545",
+              "charterFunding": "D",
+              "charter": "Y",
+              "topSchool14": 1,
+              "topSchool15": 1,
+              "elaData": {
+                "numEnrolled": 16,
+                "perEnrolled": 7,
+                "numTestedMet": 8,
+                "perTestedMet": 50,
+                "numEnrolledAfrican": 23,
+                "numTestedAfrican": 23,
+                "numTestedMetAfrican": 13,
+                "perTestedMetAftican": 57
+              },
+              "color": "NC",
+              "statusLevel": "M"
+            }
+        ]
+      },
+      {
+        "id": "new-haven-unified",
+        "label": "New Haven Unified",
+        "schools": [
+          {
+              "id": "james-logan-high",
+              "label": "James Logan High",
+              "cdsCode": "01612420134668",
+              "lat": "37.591556",
+              "long": "-122.024797",
+              "bayArea": 1,
+              "traditionalSchool": 1,
+              "type": "H",
+              "grades": "9-12",
+              "status": "A",
+              "city": "Union City",
+              "zip": "94587",
+              "charterFunding": null,
+              "charter": "N",
+              "topSchool14": 0,
+              "topSchool15": 0,
+              "elaData": {
+                "numEnrolled": 34,
+                "perEnrolled": 4,
+                "numTestedMet": 16,
+                "perTestedMet": 50,
+                "numEnrolledAfrican": 56,
+                "numTestedAfrican": 51,
+                "numTestedMetAfrican": 28,
+                "perTestedMetAftican": 55
+              },
+              "color": "NC",
+              "statusLevel": "M"
+            }
+        ]
+      },
+      {
+        "id": "oakland-unified",
+        "label": "Oakland Unified",
+        "schools": [
+          {
+              "id": "metwst-high",
+              "label": "MetWest High",
+              "cdsCode": "01612590100701",
+              "lat": "37.795125",
+              "long": "-122.258193",
+              "bayArea": 1,
+              "traditionalSchool": 1,
+              "type": "H",
+              "grades": "9-12",
+              "status": "A",
+              "city": "Oakland",
+              "zip": "94606",
+              "charterFunding": null,
+              "charter": "N",
+              "topSchool14": 0,
+              "topSchool15": 0,
+              "elaData": {
+                "numEnrolled": 0,
+                "perEnrolled": 0,
+                "numTestedMet": 0,
+                "perTestedMet": 0,
+                "numEnrolledAfrican": 0,
+                "numTestedAfrican": 0,
+                "numTestedMetAfrican": 0,
+                "perTestedMetAftican": 0
+              },
+              "color": "NC",
+              "statusLevel": "M"
+            },
+            {
+              "id": "aspire-lionel-wilson-college-preparatory-academy",
+              "label": "Aspire Lionel Wilson College Preparatory Academy",
+              "cdsCode": "01612590130666",
+              "lat": "37.729507",
+              "long": "-122.179891",
+              "bayArea": 1,
+              "traditionalSchool": 1,
+              "type": "K",
+              "grades": "6-12",
+              "status": "A",
+              "city": "Oakland",
+              "zip": "94603",
+              "charterFunding": "D",
+              "charter": "Y",
+              "topSchool14": 1,
+              "topSchool15": 1,
+              "elaData": {
+                "numEnrolled": 0,
+                "perEnrolled": 0,
+                "numTestedMet": 0,
+                "perTestedMet": 0,
+                "numEnrolledAfrican": 12,
+                "numTestedAfrican": 11,
+                "numTestedMetAfrican": 3,
+                "perTestedMetAftican": 27
+              },
+              "color": "NC",
+              "statusLevel": "M"
+            },
+            {
+              "id": "oakland-school-for-the-arts",
+              "label": "Oakland School for the Arts",
+              "cdsCode": "01612593030772",
+              "lat": "37.80778",
+              "long": "-122.270814",
+              "bayArea": 1,
+              "traditionalSchool": 1,
+              "type": "K",
+              "grades": "6-12",
+              "status": "A",
+              "city": "Oakland",
+              "zip": "94612",
+              "charterFunding": "D",
+              "charter": "Y",
+              "topSchool14": 0,
+              "topSchool15": 0,
+              "elaData": {
+                "numEnrolled": 15,
+                "perEnrolled": 3,
+                "numTestedMet": 6,
+                "perTestedMet": 40,
+                "numEnrolledAfrican": 73,
+                "numTestedAfrican": 68,
+                "numTestedMetAfrican": 31,
+                "perTestedMetAftican": 46
+              },
+              "color": "O",
+              "statusLevel": "M"
+            },
+            {
+              "id": "joaquin-miller-elementary",
+              "label": "Joaquin Miller Elementary",
+              "cdsCode": "01612596001945",
+              "lat": "37.80778",
+              "long": "-122.270814",
+              "bayArea": 1,
+              "traditionalSchool": 1,
+              "type": "E",
+              "grades": "K-6",
+              "status": "A",
+              "city": "Oakland",
+              "zip": "94612",
+              "charterFunding": null,
+              "charter": "N",
+              "topSchool14": 0,
+              "topSchool15": 0,
+              "elaData": {
+                "numEnrolled": 15,
+                "perEnrolled": 7,
+                "numTestedMet": 4,
+                "perTestedMet": 33,
+                "numEnrolledAfrican": 35,
+                "numTestedAfrican": 31,
+                "numTestedMetAfrican": 15,
+                "perTestedMetAftican": 48
+              },
+              "color": "Y",
+              "statusLevel": "ND"
+            },
+            {
+              "id": "montclair-elementary",
+              "label": "Montclair Elementary",
+              "cdsCode": "01612596002083",
+              "lat": "37.830215",
+              "long": "-122.212247",
+              "bayArea": 1,
+              "traditionalSchool": 1,
+              "type": "E",
+              "grades": "K-5",
+              "status": "A",
+              "city": "Oakland",
+              "zip": "94611",
+              "charterFunding": null,
+              "charter": "N",
+              "topSchool14": 0,
+              "topSchool15": 0,
+              "elaData": {
+                "numEnrolled": 0,
+                "perEnrolled": 0,
+                "numTestedMet": 0,
+                "perTestedMet": 0,
+                "numEnrolledAfrican": 43,
+                "numTestedAfrican": 43,
+                "numTestedMetAfrican": 25,
+                "perTestedMetAftican": 58
+              },
+              "color": "G",
+              "statusLevel": "ND"
+            }
+        ]
+      },
+      {
+        "id": "san-leandro-unified",
+        "label": "San Leandro Unified",
+        "schools": [
+          {
+              "id": "roosevelt-elementary",
+              "label": "Roosevelt Elementary",
+              "cdsCode": "01612916002448",
+              "lat": "37.735778",
+              "long": "-122.146704",
+              "bayArea": 1,
+              "traditionalSchool": 1,
+              "type": "E",
+              "grades": "K-5",
+              "status": "A",
+              "city": "San Leandro",
+              "zip": "94577",
+              "charterFunding": null,
+              "charter": "N",
+              "topSchool14": 0,
+              "topSchool15": 0,
+              "elaData": {
+                "numEnrolled": 16,
+                "perEnrolled": 7,
+                "numTestedMet": 4,
+                "perTestedMet": 27,
+                "numEnrolledAfrican": 36,
+                "numTestedAfrican": 35,
+                "numTestedMetAfrican": 17,
+                "perTestedMetAftican": 49
+              },
+              "color": "G",
+              "statusLevel": "ND"
+            }
+        ]
+      },
+      {
+        "id": "san-lorenzo-unified",
+        "label": "San Lorenzo Unified",
+        "schools": [
+          {
+              "id": "kipp-king-collegiate-high",
+              "label": "KIPP King Collegiate High",
+              "cdsCode": "01613090114421",
+              "lat": "37.674465",
+              "long": "-122.150454",
+              "bayArea": 1,
+              "traditionalSchool": 1,
+              "type": "H",
+              "grades": "9-12",
+              "status": "A",
+              "city": "San Lorenzo",
+              "zip": "94580",
+              "charterFunding": "D",
+              "charter": "Y",
+              "topSchool14": 0,
+              "topSchool15": 0,
+              "elaData": {
+                "numEnrolled": 0,
+                "perEnrolled": 0,
+                "numTestedMet": 0,
+                "perTestedMet": 0,
+                "numEnrolledAfrican": 18,
+                "numTestedAfrican": 18,
+                "numTestedMetAfrican": 12,
+                "perTestedMetAftican": 67
+              },
+              "color": "NC",
+              "statusLevel": "H"
+            }
+        ]
+      },
+      {
+        "id": "dublin-unified",
+        "label": "Dublin Unified",
+        "schools": [
+          { 
+            "id": "eleanor-murray-fallon",
+            "label": "Eleanor Murray Fallon",
+            "cdsCode": "01750930125930",
+            "lat": "37.715748",
+            "long": "-121.865949",
+            "bayArea": 1,
+            "traditionalSchool": 1,
+            "type": "M",
+            "grades": "6-8",
+            "status": "A",
+            "city": "Dublin",
+            "zip": "94568",
+            "charterFunding": null,
+            "charter": "N",
+            "topSchool14": 0,
+            "topSchool15": 0,
+            "elaData": {
+              "numEnrolled": 0,
+              "perEnrolled": 0,
+              "numTestedMet": 0,
+              "perTestedMet": 0,
+              "numEnrolledAfrican": 43,
+              "numTestedAfrican": 43,
+              "numTestedMetAfrican": 25,
+              "perTestedMetAftican": 58
+            },
+            "color": "G",
+            "statusLevel": "ND"
+          },
+          { 
+            "id": "Dublin High",
+            "label": "Dublin High",
+            "cdsCode": "01750930125930",
+            "lat": "37.72196",
+            "long": "-121.9271",
+            "bayArea": 1,
+            "traditionalSchool": 1,
+            "type": "H",
+            "grades": "9-12",
+            "status": "A",
+            "city": "Dublin",
+            "zip": "94568",
+            "charterFunding": null,
+            "charter": "N",
+            "topSchool14": 0,
+            "topSchool15": 0,
+            "elaData": {
+              "numEnrolled": 0,
+              "perEnrolled": 0,
+              "numTestedMet": 0,
+              "perTestedMet": 0,
+              "numEnrolledAfrican": 28,
+              "numTestedAfrican": 27,
+              "numTestedMetAfrican": 15,
+              "perTestedMetAftican": 56
+            },
+            "color": "NC",
+            "statusLevel": "M"
+          }
+        ]
+      },
+      {
+        "id": "pleasanton-unified",
+        "label": "Pleasanton Unified",
+        "schools": [
+          { 
+            "id": "foothill-high",
+            "label": "Foothill High",
+            "cdsCode": "01750930125930",
+            "lat": "37.673",
+            "long": "-121.9204",
+            "bayArea": 1,
+            "traditionalSchool": 1,
+            "type": "H",
+            "grades": "9-12",
+            "status": "A",
+            "city": "Dublin",
+            "zip": "94568",
+            "charterFunding": null,
+            "charter": "N",
+            "topSchool14": 0,
+            "topSchool15": 0,
+            "elaData": {
+              "numEnrolled": 0,
+              "perEnrolled": 0,
+              "numTestedMet": 0,
+              "perTestedMet": 0,
+              "numEnrolledAfrican": 0,
+              "numTestedAfrican": 0,
+              "numTestedMetAfrican": 0,
+              "perTestedMetAftican": 0
+            },
+            "color": "NC",
+            "statusLevel": "H"
+          },
+          { 
+            "id": "amador-valley-high",
+            "label": "Amador Valley High",
+            "cdsCode": "01751010130583",
+            "lat": "37.668352",
+            "long": "-121.875069",
+            "bayArea": 1,
+            "traditionalSchool": 1,
+            "type": "H",
+            "grades": "9-12",
+            "status": "A",
+            "city": "Dublin",
+            "zip": "94568",
+            "charterFunding": null,
+            "charter": "N",
+            "topSchool14": 0,
+            "topSchool15": 0,
+            "elaData": {
+              "numEnrolled": 0,
+              "perEnrolled": 0,
+              "numTestedMet": 0,
+              "perTestedMet": 0,
+              "numEnrolledAfrican": 0,
+              "numTestedAfrican": 0,
+              "numTestedMetAfrican": 0,
+              "perTestedMetAftican": 0
+            },
+            "color": "NC",
+            "statusLevel": "H"
+          }          
+        ]
+      }
+    ]
+    },
+    {
+      "id": "contra-costa",
+      "label": "Contra Costa"
+    },
+    {
+      "id": "santa-clara",
+      "label": "Santa Clara"
+    }
+  ]
+}
